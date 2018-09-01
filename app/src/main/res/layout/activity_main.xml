@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainActivity"
+    tools:context="qthjen_dev.io.notes.View.MainActivity">
+
+    <include layout="@layout/layout_toolbar"
+        android:id="@+id/toolbar"/>
+
+    <RelativeLayout
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/containerRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:paddingRight="@dimen/superSmallMargin"
+            android:paddingLeft="@dimen/superSmallMargin"
+            android:background="@color/superWhite"
+            android:id="@+id/recyclerNote"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <android.support.design.widget.FloatingActionButton
+            app:backgroundTint="@color/fabadd"
+            android:id="@+id/fab_add"
+            android:src="@drawable/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/largeMargin"
+            android:layout_marginRight="@dimen/largeMargin"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:paddingTop="@dimen/miniMargin"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:id="@+id/fragment_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:layout_centerInParent="true"
+        android:id="@+id/mainProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

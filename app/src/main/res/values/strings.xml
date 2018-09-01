@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Notes</string>
+
+    <string name="username">User-name</string>
+    <string name="pass">Password</string>
+    <string name="signup">SignUp</string>
+    <string name="signIn">SignIn</string>
+    <string name="notedescription">Description</string>
+    <string name="addnote">Add note</string>
+    <string name="done">Done</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="editnote">Update note</string>
+    <string name="deleteNote">Are you delete this note?</string>
+    <string name="home">Home</string>
+    <string name="changepass">Change password</string>
+    <string name="signout">Sign out</string>
+    <string name="enterpass">Enter passwork</string>
+    <string name="search">Search</string>
+    <string name="enternote">Enter note</string>
+    <string name="cancel">Cancel</string>
+    <string name="getstart">Get started</string>
+    <string name="dontaccount">New here? Sign up</string>
+    <string name="successchange">Successful change</string>
+    <string name="deletesuccess">Successfully deleted</string>
+    <string name="editsuccess">Edit successfully</string>
+    <string name="errordelete">Error when deleting this item</string>
+    <string name="editerror">Error when editing this item</string>
+    <string name="networkerror">Network error</string>
+    <string name="inserterror">Error when inserting</string>
+    <string name="insertsuccess">Insert successfully</string>
+    <string name="existsuser">Your user-name already exists</string>
+    <string name="signinerror">User-name or pass is wrong</string>
+    <string name="signuperror">Error when create account</string>
+    <string name="pass8">Your password must be eight characters or more and user-name must contain two or more characters!</string>
+    <string name="enteruser">You have not entered your user-name or passwork yet!</string>
+    <string name="create">Create</string>
+    <string name="turnonnetwork">Please! Turn on the network connection</string>
+    <string name="hithere">Hi there.</string>
+    <string name="wellcome">Welcome to Notes App</string>
+    <string name="reload">Reload</string>
+    <string name="emptynote">Note is not empty!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

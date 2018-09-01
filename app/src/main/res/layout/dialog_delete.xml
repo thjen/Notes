@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/superWhite"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_marginTop="@dimen/smallMargin"
+        android:textColor="@color/note_list_text"
+        android:textStyle="bold"
+        android:textSize="@dimen/largeText"
+        android:text="@string/deleteNote"
+        android:id="@+id/des"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/smallMargin"
+        android:layout_marginRight="@dimen/smallMargin"
+        android:weightSum="1"
+        android:layout_marginBottom="@dimen/smallMargin"
+        android:layout_marginTop="@dimen/smallMargin"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_below="@+id/des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:layout_marginRight="@dimen/smallMargin"
+            android:layout_marginLeft="@dimen/smallMargin"
+            android:layout_weight="0.5"
+            app:cardBackgroundColor="@color/grayItemSetting"
+            android:id="@+id/no"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="@dimen/smallElevation"
+            app:cardUseCompatPadding="true"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/heightButton">
+
+            <TextView
+                android:gravity="center"
+                android:textColor="@color/note_list_text"
+                android:textSize="@dimen/settingText"
+                android:text="@string/no"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_marginRight="@dimen/smallMargin"
+            android:layout_marginLeft="@dimen/smallMargin"
+            android:layout_weight="0.5"
+            app:cardBackgroundColor="@color/signOut"
+            android:id="@+id/yes"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="@dimen/smallElevation"
+            app:cardUseCompatPadding="true"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/heightButton">
+
+            <TextView
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/superWhite"
+                android:textSize="@dimen/settingText"
+                android:text="@string/yes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</RelativeLayout>

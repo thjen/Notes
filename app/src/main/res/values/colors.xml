@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fff</color>
+    <color name="colorPrimaryDark">#FFF</color>
+    <color name="colorAccent">#36D3B2</color>
+    <color name="msg_no_notes">#999</color>
+    <color name="hint_enter_note">#89c3c3c3</color>
+    <color name="timestamp">#858585</color>
+    <color name="note_list_text">#232323</color>
+    <color name="delete">#FF5E5B</color>
+    <color name="edit">#00CECB</color>
+    <color name="fabadd">#FFD23F</color>
+    <color name="grayItemSetting">#F5F5F5</color>
+    <color name="signOut">#FF3C38</color>
+    <color name="done">#29b6f6</color>
+    <color name="sign">#F0F465</color>
+    <color name="snackbartext">#FFB30F</color>
+
+    <color name="superWhite">#ffffff</color>
+    <color name="superBlack">#000000</color>
+
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml
+version="1.0"
+encoding="utf-8"?>
+<resources>
+<dimen name="superSmallMargin">7.5dp</dimen>
+<dimen name="miniMargin">3.75dp</dimen>
+<dimen name="smallMargin">12.0dp</dimen>
+<dimen name="mediumMargin">15.0dp</dimen>
+<dimen name="largeMargin">18.75sp</dimen>
+<dimen name="superLargeMargin">22.5dp</dimen>
+<dimen name="margin50">37.5dp</dimen>
+<dimen name="margin100">75.0dp</dimen>
+<dimen name="margin60">47.25dp</dimen>
+
+<dimen name="heightEditTextSign">52.5dp</dimen>
+<dimen name="buttonSignHeight">15.0dp</dimen>
+<dimen name="noteDescriptionHeight">187.5dp</dimen>
+<dimen name="noteItemHeight">93.75sp</dimen>
+<dimen name="frameDot">52.5dp</dimen>
+<dimen name="dot">37.5dp</dimen>
+<dimen name="timestamp">22.5dp</dimen>
+<dimen name="swipeWeight">187.5dp</dimen>
+<dimen name="tvInSwipe">93.75dp</dimen>
+<dimen name="settingItemHeight">52.5dp</dimen>
+<dimen name="iconsetting">22.5dp</dimen>
+<dimen name="changePassHeight">75.0dp</dimen>
+<dimen name="btDoneHeight">45.0dp</dimen>
+<dimen name="btDoneWidth">60.0dp</dimen>
+<dimen name="heightButton">37.5dp</dimen>
+<dimen name="widthButton">37.5dp</dimen>
+<dimen name="signHeight">67.5dp</dimen>
+
+<dimen name="smallElevation">1.125dp</dimen>
+<dimen name="largeElevation">3.75dp</dimen>
+<dimen name="backfab">30.0dp</dimen>
+
+<dimen name="divider">0.75dp</dimen>
+<dimen name="largeShadow">1.125dp</dimen>
+
+<dimen name="dotSize">30.0sp</dimen>
+<dimen name="triangleSize">37.5sp</dimen>
+<dimen name="largeText">18.75sp</dimen>
+<dimen name="settingText">15.0sp</dimen>
+<dimen name="textNote">18.75sp</dimen>
+<dimen name="textDate">11.25sp</dimen>
+<dimen name="superLargeText">22.5sp</dimen>
+<dimen name="text50">37.5sp</dimen>
+</resources>

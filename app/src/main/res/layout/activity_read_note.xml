@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:focusableInTouchMode="true"
+    android:id="@+id/readRootView"
+    android:background="@color/superWhite"
+    tools:context="qthjen_dev.io.notes.View.ReadNoteActivity">
+
+    <RelativeLayout
+        android:background="@color/superWhite"
+        android:elevation="@dimen/largeElevation"
+        android:id="@+id/tbarReadNote"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <TextView
+            android:id="@+id/returnHome"
+            android:layout_marginLeft="@dimen/smallMargin"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/textNote"
+            android:textColor="@color/done"
+            android:paddingRight="@dimen/smallMargin"
+            android:paddingBottom="@dimen/superSmallMargin"
+            android:paddingTop="@dimen/superSmallMargin"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:paddingBottom="@dimen/superSmallMargin"
+            android:paddingTop="@dimen/superSmallMargin"
+            android:paddingLeft="@dimen/smallMargin"
+            android:id="@+id/readDone"
+            android:textSize="@dimen/textNote"
+            android:textColor="@color/note_list_text"
+            android:text="@string/done"
+            android:layout_marginRight="@dimen/smallMargin"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:paddingBottom="@dimen/smallMargin"
+        android:paddingRight="@dimen/smallMargin"
+        android:paddingLeft="@dimen/smallMargin"
+        android:layout_marginTop="@dimen/smallMargin"
+        android:id="@+id/note"
+        android:background="@color/superWhite"
+        android:textColor="@color/note_list_text"
+        android:textSize="@dimen/textNote"
+        android:gravity="top"
+        android:layout_below="@+id/tbarReadNote"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

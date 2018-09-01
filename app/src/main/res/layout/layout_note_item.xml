@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="@dimen/superSmallMargin"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/noteItemHeight"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="@dimen/largeElevation"
+    android:id="@+id/item"
+    app:cardCornerRadius="0dp">
+
+    <com.daimajia.swipe.SwipeLayout
+        android:id="@+id/swipell"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="@dimen/swipeWeight"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textSize="@dimen/settingText"
+                android:textColor="@color/superWhite"
+                android:id="@+id/edit"
+                android:background="@color/edit"
+                android:gravity="center"
+                android:text="@string/edit"
+                android:layout_width="@dimen/tvInSwipe"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:background="@color/superWhite"
+                android:layout_width="@dimen/divider"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:textSize="@dimen/settingText"
+                android:textColor="@color/superWhite"
+                android:id="@+id/delete"
+                android:background="@color/delete"
+                android:gravity="center"
+                android:text="@string/delete"
+                android:layout_width="@dimen/tvInSwipe"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:paddingRight="@dimen/superSmallMargin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/reltemp1"
+                android:layout_width="@dimen/frameDot"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:gravity="center"
+                    android:textSize="@dimen/dotSize"
+                    android:id="@+id/dot"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_toRightOf="@+id/reltemp1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:paddingBottom="@dimen/miniMargin"
+                    android:paddingTop="@dimen/miniMargin"
+                    android:textSize="@dimen/textNote"
+                    android:layout_above="@+id/timestamp"
+                    android:textColor="@color/note_list_text"
+                    android:gravity="center_vertical"
+                    android:id="@+id/noteDes"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:textSize="@dimen/textDate"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="@color/note_list_text"
+                    android:gravity="right"
+                    android:id="@+id/timestamp"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/timestamp" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </com.daimajia.swipe.SwipeLayout>
+
+</android.support.v7.widget.CardView>
